@@ -3,9 +3,8 @@ name: Build and Release
 on:
   push:
     tags:
-      - 'v*'
-  workflow_dispatch: 
-
+      - 'v*'  
+  workflow_dispatch:  
 jobs:
   build:
     runs-on: windows-latest
@@ -18,6 +17,12 @@ jobs:
       uses: actions/setup-go@v5
       with:
         go-version: '1.21'
+    
+    - name: Initialize Go module (if not exists)
+      run: |
+        if (-not (Test-Path "go.mod")) {
+          go mod init yahoo-fix
+        }
     
     - name: Install dependencies
       run: go mod tidy
