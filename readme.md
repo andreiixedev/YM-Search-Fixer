@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/logo.png?v2" width="30%">
+<img src="images/logo.png" width="30%">
 
 ![Yahoo! Messenger](https://img.shields.io/badge/Yahoo!%20Messenger-720E9E?style=for-the-badge&logo=yahoo&logoColor=white)
 ![Golang](https://img.shields.io/badge/golang-5996FF?style=for-the-badge&logo=golang&logoColor=black)
