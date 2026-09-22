@@ -52,7 +52,7 @@ This tool fixes the issue where **Yahoo! Web Search** does not appear in **Yahoo
 4. **Wait** for the fix to complete
 5. **Exit** to close the window
 
-[Remember| You might need to click "Fix" twice to fix Yahoo Messenger search.]
+[Remember| You might need to click "Fix" twice to fix Yahoo Messenger search.]<br>
 (－_－) zzZ That's it. Launch Yahoo! Messenger and the Web Search should now be visible.
 
 ---
